@@ -37,7 +37,7 @@ file_path = "Path_Here"
 with open(file_path, "r") as file:
     binary_data = file.read().replace('\n', '')
 
-# Change it the way you need it
+# Change it as you need it
 shift = 3
 
 decoded_message = decode_binary_string(binary_data, shift)
